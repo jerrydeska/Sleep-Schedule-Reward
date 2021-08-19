@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590F3667261F1EB2008305E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F3666261F1EB2008305E3 /* AppDelegate.swift */; };
+		590F3669261F1EB2008305E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F3668261F1EB2008305E3 /* SceneDelegate.swift */; };
+		590F366B261F1EB2008305E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F366A261F1EB2008305E3 /* ViewController.swift */; };
+		590F366E261F1EB2008305E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590F366C261F1EB2008305E3 /* Main.storyboard */; };
+		590F3670261F1EB3008305E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590F366F261F1EB3008305E3 /* Assets.xcassets */; };
+		590F3673261F1EB3008305E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590F3671261F1EB3008305E3 /* LaunchScreen.storyboard */; };
+		590F367E261F1EB3008305E3 /* SleepScheduleRewardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F367D261F1EB3008305E3 /* SleepScheduleRewardTests.swift */; };
+		590F3689261F1EB3008305E3 /* SleepScheduleRewardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F3688261F1EB3008305E3 /* SleepScheduleRewardUITests.swift */; };
+		595F477926215FE700EEA3C8 /* SetAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F477826215FE700EEA3C8 /* SetAlarmViewController.swift */; };
+		595F477E2621602300EEA3C8 /* SetRewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F477D2621602300EEA3C8 /* SetRewardViewController.swift */; };
+		59A253EA261FFF8700A7B360 /* SetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A253E9261FFF8700A7B360 /* SetPasswordViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		590F367A261F1EB3008305E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590F365B261F1EB2008305E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590F3662261F1EB2008305E3;
+			remoteInfo = SleepScheduleReward;
+		};
+		590F3685261F1EB3008305E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590F365B261F1EB2008305E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590F3662261F1EB2008305E3;
+			remoteInfo = SleepScheduleReward;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		590F3663261F1EB2008305E3 /* SleepScheduleReward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepScheduleReward.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		590F3666261F1EB2008305E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		590F3668261F1EB2008305E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		590F366A261F1EB2008305E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		590F366D261F1EB2008305E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		590F366F261F1EB3008305E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		590F3672261F1EB3008305E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		590F3674261F1EB3008305E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590F3679261F1EB3008305E3 /* SleepScheduleRewardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepScheduleRewardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		590F367D261F1EB3008305E3 /* SleepScheduleRewardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScheduleRewardTests.swift; sourceTree = "<group>"; };
+		590F367F261F1EB3008305E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590F3684261F1EB3008305E3 /* SleepScheduleRewardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepScheduleRewardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		590F3688261F1EB3008305E3 /* SleepScheduleRewardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScheduleRewardUITests.swift; sourceTree = "<group>"; };
+		590F368A261F1EB3008305E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595F477826215FE700EEA3C8 /* SetAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAlarmViewController.swift; sourceTree = "<group>"; };
+		595F477D2621602300EEA3C8 /* SetRewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetRewardViewController.swift; sourceTree = "<group>"; };
+		59A253E9261FFF8700A7B360 /* SetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		590F3660261F1EB2008305E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590F3676261F1EB3008305E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590F3681261F1EB3008305E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		590F365A261F1EB2008305E3 = {
+			isa = PBXGroup;
+			children = (
+				590F3665261F1EB2008305E3 /* SleepScheduleReward */,
+				590F367C261F1EB3008305E3 /* SleepScheduleRewardTests */,
+				590F3687261F1EB3008305E3 /* SleepScheduleRewardUITests */,
+				590F3664261F1EB2008305E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		590F3664261F1EB2008305E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				590F3663261F1EB2008305E3 /* SleepScheduleReward.app */,
+				590F3679261F1EB3008305E3 /* SleepScheduleRewardTests.xctest */,
+				590F3684261F1EB3008305E3 /* SleepScheduleRewardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		590F3665261F1EB2008305E3 /* SleepScheduleReward */ = {
+			isa = PBXGroup;
+			children = (
+				590F3666261F1EB2008305E3 /* AppDelegate.swift */,
+				590F3668261F1EB2008305E3 /* SceneDelegate.swift */,
+				590F366A261F1EB2008305E3 /* ViewController.swift */,
+				59A253E9261FFF8700A7B360 /* SetPasswordViewController.swift */,
+				595F477D2621602300EEA3C8 /* SetRewardViewController.swift */,
+				595F477826215FE700EEA3C8 /* SetAlarmViewController.swift */,
+				590F366C261F1EB2008305E3 /* Main.storyboard */,
+				590F366F261F1EB3008305E3 /* Assets.xcassets */,
+				590F3671261F1EB3008305E3 /* LaunchScreen.storyboard */,
+				590F3674261F1EB3008305E3 /* Info.plist */,
+			);
+			path = SleepScheduleReward;
+			sourceTree = "<group>";
+		};
+		590F367C261F1EB3008305E3 /* SleepScheduleRewardTests */ = {
+			isa = PBXGroup;
+			children = (
+				590F367D261F1EB3008305E3 /* SleepScheduleRewardTests.swift */,
+				590F367F261F1EB3008305E3 /* Info.plist */,
+			);
+			path = SleepScheduleRewardTests;
+			sourceTree = "<group>";
+		};
+		590F3687261F1EB3008305E3 /* SleepScheduleRewardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				590F3688261F1EB3008305E3 /* SleepScheduleRewardUITests.swift */,
+				590F368A261F1EB3008305E3 /* Info.plist */,
+			);
+			path = SleepScheduleRewardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		590F3662261F1EB2008305E3 /* SleepScheduleReward */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590F368D261F1EB3008305E3 /* Build configuration list for PBXNativeTarget "SleepScheduleReward" */;
+			buildPhases = (
+				590F365F261F1EB2008305E3 /* Sources */,
+				590F3660261F1EB2008305E3 /* Frameworks */,
+				590F3661261F1EB2008305E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepScheduleReward;
+			productName = SleepScheduleReward;
+			productReference = 590F3663261F1EB2008305E3 /* SleepScheduleReward.app */;
+			productType = "com.apple.product-type.application";
+		};
+		590F3678261F1EB3008305E3 /* SleepScheduleRewardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590F3690261F1EB3008305E3 /* Build configuration list for PBXNativeTarget "SleepScheduleRewardTests" */;
+			buildPhases = (
+				590F3675261F1EB3008305E3 /* Sources */,
+				590F3676261F1EB3008305E3 /* Frameworks */,
+				590F3677261F1EB3008305E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590F367B261F1EB3008305E3 /* PBXTargetDependency */,
+			);
+			name = SleepScheduleRewardTests;
+			productName = SleepScheduleRewardTests;
+			productReference = 590F3679261F1EB3008305E3 /* SleepScheduleRewardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		590F3683261F1EB3008305E3 /* SleepScheduleRewardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590F3693261F1EB3008305E3 /* Build configuration list for PBXNativeTarget "SleepScheduleRewardUITests" */;
+			buildPhases = (
+				590F3680261F1EB3008305E3 /* Sources */,
+				590F3681261F1EB3008305E3 /* Frameworks */,
+				590F3682261F1EB3008305E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590F3686261F1EB3008305E3 /* PBXTargetDependency */,
+			);
+			name = SleepScheduleRewardUITests;
+			productName = SleepScheduleRewardUITests;
+			productReference = 590F3684261F1EB3008305E3 /* SleepScheduleRewardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		590F365B261F1EB2008305E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					590F3662261F1EB2008305E3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					590F3678261F1EB3008305E3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 590F3662261F1EB2008305E3;
+					};
+					590F3683261F1EB3008305E3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 590F3662261F1EB2008305E3;
+					};
+				};
+			};
+			buildConfigurationList = 590F365E261F1EB2008305E3 /* Build configuration list for PBXProject "SleepScheduleReward" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 590F365A261F1EB2008305E3;
+			productRefGroup = 590F3664261F1EB2008305E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				590F3662261F1EB2008305E3 /* SleepScheduleReward */,
+				590F3678261F1EB3008305E3 /* SleepScheduleRewardTests */,
+				590F3683261F1EB3008305E3 /* SleepScheduleRewardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		590F3661261F1EB2008305E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590F3673261F1EB3008305E3 /* LaunchScreen.storyboard in Resources */,
+				590F3670261F1EB3008305E3 /* Assets.xcassets in Resources */,
+				590F366E261F1EB2008305E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590F3677261F1EB3008305E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590F3682261F1EB3008305E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		590F365F261F1EB2008305E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A253EA261FFF8700A7B360 /* SetPasswordViewController.swift in Sources */,
+				595F477926215FE700EEA3C8 /* SetAlarmViewController.swift in Sources */,
+				595F477E2621602300EEA3C8 /* SetRewardViewController.swift in Sources */,
+				590F366B261F1EB2008305E3 /* ViewController.swift in Sources */,
+				590F3667261F1EB2008305E3 /* AppDelegate.swift in Sources */,
+				590F3669261F1EB2008305E3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590F3675261F1EB3008305E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590F367E261F1EB3008305E3 /* SleepScheduleRewardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590F3680261F1EB3008305E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590F3689261F1EB3008305E3 /* SleepScheduleRewardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		590F367B261F1EB3008305E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590F3662261F1EB2008305E3 /* SleepScheduleReward */;
+			targetProxy = 590F367A261F1EB3008305E3 /* PBXContainerItemProxy */;
+		};
+		590F3686261F1EB3008305E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590F3662261F1EB2008305E3 /* SleepScheduleReward */;
+			targetProxy = 590F3685261F1EB3008305E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		590F366C261F1EB2008305E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				590F366D261F1EB2008305E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		590F3671261F1EB3008305E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				590F3672261F1EB3008305E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		590F368B261F1EB3008305E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		590F368C261F1EB3008305E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		590F368E261F1EB3008305E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCP4ZN33H9;
+				INFOPLIST_FILE = SleepScheduleReward/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jerrydeska.SleepScheduleReward;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		590F368F261F1EB3008305E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCP4ZN33H9;
+				INFOPLIST_FILE = SleepScheduleReward/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jerrydeska.SleepScheduleReward;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		590F3691261F1EB3008305E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCP4ZN33H9;
+				INFOPLIST_FILE = SleepScheduleRewardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jerrydeska.SleepScheduleRewardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepScheduleReward.app/SleepScheduleReward";
+			};
+			name = Debug;
+		};
+		590F3692261F1EB3008305E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCP4ZN33H9;
+				INFOPLIST_FILE = SleepScheduleRewardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jerrydeska.SleepScheduleRewardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepScheduleReward.app/SleepScheduleReward";
+			};
+			name = Release;
+		};
+		590F3694261F1EB3008305E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCP4ZN33H9;
+				INFOPLIST_FILE = SleepScheduleRewardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jerrydeska.SleepScheduleRewardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepScheduleReward;
+			};
+			name = Debug;
+		};
+		590F3695261F1EB3008305E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCP4ZN33H9;
+				INFOPLIST_FILE = SleepScheduleRewardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jerrydeska.SleepScheduleRewardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepScheduleReward;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		590F365E261F1EB2008305E3 /* Build configuration list for PBXProject "SleepScheduleReward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590F368B261F1EB3008305E3 /* Debug */,
+				590F368C261F1EB3008305E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590F368D261F1EB3008305E3 /* Build configuration list for PBXNativeTarget "SleepScheduleReward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590F368E261F1EB3008305E3 /* Debug */,
+				590F368F261F1EB3008305E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590F3690261F1EB3008305E3 /* Build configuration list for PBXNativeTarget "SleepScheduleRewardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590F3691261F1EB3008305E3 /* Debug */,
+				590F3692261F1EB3008305E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590F3693261F1EB3008305E3 /* Build configuration list for PBXNativeTarget "SleepScheduleRewardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590F3694261F1EB3008305E3 /* Debug */,
+				590F3695261F1EB3008305E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 590F365B261F1EB2008305E3 /* Project object */;
+}
